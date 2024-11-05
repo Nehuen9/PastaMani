@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/estilo.css">
   <title>Pasta Mani</title>
 </head>
 <body>
+  <header>
   <nav>
     <ul>
-      <li><a href="#Quienes somos">Quienes somos</a></li>
-      <li><a href="#nuestros productos">Nuestros productos</a></li>
-      <li><a href="#Contacto">Contacto</a></li>
+      <li><a href="/quienesSomos.html">Quienes somos</a></li>
+      <li><a href="/nuestrosProductos.html">Nuestros productos</a></li>
+      <li><a href="/contacto.html">Contacto</a></li>
     </ul>
   </nav>
 
@@ -26,10 +28,11 @@
     </article>
   </section>
 
-  <section id="productos" class="">
+  <section id="productos" class="productos service-css sticky">
   <article>
     <figure>
-      <img src="" width="200"/>
+      <img src="img/mani.png" width="200"/>
+      <img src="img/maniSol.png" width="200"/>
     </figure>
     <div class="texto">
       <h2>Nuestros productos</h2>
@@ -38,8 +41,19 @@
     </div>
   </article>
   </section>
-  
 
-  
+  <section id="contact" class="contact full-screen" >
+    <article>
+      <figure>
+        <img src="img/maniVolcan.png" width="200"/>
+        <div class="texto">
+          <h2>Contactanos</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum odio cumque vero corrupti voluptas aspernatur!</p>
+        </div>
+        <a href="mailto:infopastamani@gmail.com">mailto:infopastamani@gmail.com</a>
+      </figure>
+    </article>
+  </section>
+  </header>
 </body>
 </html>
